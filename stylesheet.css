@@ -1,5 +1,6 @@
 .profile{
     text-align: center;
+    margin-top: 100px;
 }
 
 .profile img {
@@ -27,16 +28,69 @@ address {
     font-style: normal;
 }
 
+/*ギャラリー周り*/
+
+.gallery{
+    margin-top: 100px;
+}
   
-.gallery {
+.images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    margin: auto;
 }
 
-.gallery img {
+.images img {
     width: 30%;
     height: auto;
     border: 1px solid black;
 }
+
+
+/*メニューバー*/
+
+.menu {
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: #0b9e66;
+    color: white;
+}
+
+.menu ul{
+    display: flex;
+    padding-left: 0;
+}
+
+.menu li{
+    list-style: none;
+}
+
+/*メニューバー終わり*/
+
+.credits{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cre_list{
+    text-align: left;
+    display: inline-block;
+}
+
+.contact{
+    margin-top: 100px;
+}
+
