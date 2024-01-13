@@ -26,3 +26,17 @@ address {
     text-align: center;
     font-style: normal;
 }
+
+  
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+}
