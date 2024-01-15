@@ -28,11 +28,18 @@ address {
     font-style: normal;
 }
 
+
+.contact li{
+    list-style: none;
+    padding-left: 0;
+}
+
 /*ギャラリー周り*/
 
 .gallery {
-    margin-top: 100px;
+    margin-top: 5%;
     position: relative;
+    margin-bottom: 10%;
 }
   
 .images {
@@ -44,9 +51,15 @@ address {
 }
 
 .images img {
-    width: 20%;
-    height: auto;
-    border: 1px solid black;
+    width: 20vw;
+    height: 20vw;
+    border: 1px solid rgb(182, 182, 182);
+    object-fit: cover;
+}
+
+.images img:hover{
+        opacity: 0.6;
+        transition: 0.3s;
 }
 
 /*拡大表示*/
@@ -70,6 +83,8 @@ address {
     height: 90%;
     border: solid white 10px;
 }
+
+
 
 /*ギャラリーここまで*/
 
