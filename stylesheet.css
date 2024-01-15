@@ -1,43 +1,98 @@
-.body{
-    font-family: "shimanami";
+body{
+    font-family: "Shimanami";
+    text-align: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #465c8b;
 }
 
 
+
+/*メニューバー*/
+
+.menu {
+    background-color: black;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.menu a {
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: #93c178;
+    color: white;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: end;
+}
+
+.menu li{
+    list-style: none;
+}
+
+
+/*プロフィール*/
+
 .profile {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 5%;
 }
 
 .profile img {
     width: 30%;
 }
 
-h1 {
-    text-align: center;
-}
 
-h2 {
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
+/*連絡先*/
 address {
-    text-align: center;
     font-style: normal;
 }
 
+.contact ul{
+    padding-left: 0;
+}
 
 .contact li{
     list-style: none;
     padding-left: 0;
 }
+
+.contact {
+    margin-top: 5%;
+}
+
+
+/*出演歴*/
+.credits {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.cre_list {
+    text-align: left;
+    display: inline-block;
+}
+
+.cre_list li{
+    margin-top: 2em;
+}
+
+.annual_list li{
+    margin-top: 0.5em;
+}
+
 
 /*ギャラリー周り*/
 
@@ -89,53 +144,4 @@ address {
     border: solid white 10px;
 }
 
-
-
 /*ギャラリーここまで*/
-
-
-/*メニューバー*/
-
-.menu {
-    background-color: black;
-    padding: 5px;
-    text-align: center;
-}
-
-.menu a {
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.menu a:hover {
-    background-color: #0b9e66;
-    color: white;
-}
-
-.menu ul{
-    display: flex;
-    padding-left: 0;
-}
-
-.menu li{
-    list-style: none;
-}
-
-/*メニューバーここまで*/
-
-.credits {
-    text-align: center;
-    margin-top: 100px;
-}
-
-.cre_list {
-    text-align: left;
-    display: inline-block;
-}
-
-.contact {
-    margin-top: 100px;
-}
-
